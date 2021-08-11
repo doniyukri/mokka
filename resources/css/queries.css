@@ -1,0 +1,279 @@
+@media only screen and (max-width: 1200px) {
+  section {
+    padding: 70px 0;
+  }
+
+  .center {
+    width: 1000px;
+  }
+
+  h1 {
+    font-size: 200%;
+    line-height: 105%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 45%;
+  }
+
+  .header__container {
+    max-width: 1000px;
+  }
+
+  .header__hero {
+    width: 1000px;
+  }
+
+  .roastery__details {
+    margin-top: 70px;
+  }
+
+  .contact__form {
+    margin-top: 60px;
+  }
+
+  footer {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  .center {
+    width: 750px;
+  }
+
+  h1 {
+    font-size: 180%;
+    line-height: 100%;
+  }
+
+  h2 {
+    font-size: 130%;
+  }
+
+  .long-copy {
+    width: 65%;
+  }
+
+  .header__container {
+    max-width: 750px;
+  }
+
+  .header__hero {
+    width: 750px;
+  }
+
+  .shop__details,
+  .roastery__details {
+    margin-top: 50px;
+  }
+
+  .shop__picture figure,
+  .roastery__picture figure {
+    width: 80%;
+  }
+
+  .plans__card:last-of-type {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plans__card .plans__body {
+    flex: 1;
+  }
+
+  .contact__form {
+    margin-top: 50px;
+  }
+
+  .contact__row {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  footer {
+    padding: 40px 0;
+  }
+
+  .footer__copyright {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 35px 0;
+  }
+
+  .center {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 150%;
+    line-height: 100%;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+
+  h3 {
+    margin: 10px 0;
+  }
+
+  .title {
+    margin-bottom: 15px;
+  }
+
+  .long-copy {
+    width: 70%;
+  }
+
+  .header__container {
+    max-width: 95%;
+  }
+
+  .header__hero {
+    width: 95%;
+  }
+
+  .products__details {
+    flex-direction: column;
+  }
+
+  cite {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  cite img {
+    margin-bottom: 10px;
+  }
+
+  .shop__details {
+    margin-top: 15px;
+    flex-direction: column;
+  }
+
+  .roastery__details {
+    flex-direction: column-reverse;
+    margin-top: 15px;
+  }
+
+  .shop__picture {
+    margin-right: 0;
+  }
+
+  .roastery__picture {
+    margin-left: 0;
+  }
+
+  .shop__picture figure,
+  .roastery__picture figure {
+    width: 50%;
+    margin: 15px auto;
+  }
+
+  .shop__description,
+  .roastery__description {
+    margin-bottom: 10px;
+  }
+
+  .shop__description:last-of-type,
+  .roastery__description:last-of-type {
+    margin-bottom: 30px;
+  }
+
+  .plans__details {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .contact__row {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .footer__navitem li a:link,
+  .footer__navitem li a:visited {
+    margin-left: 15px;
+  }
+
+  .footer__copyright {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .long-copy {
+    width: 80%;
+  }
+
+  .talents_details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .talents_detail {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  blockquote cite {
+    align-items: center;
+  }
+
+  .contact__row {
+    width: 96%;
+    margin-left: 2%;
+  }
+
+  .footer__nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer__navitem {
+    margin-bottom: 15px;
+  }
+
+  .footer__navitem li a:link,
+  .footer__navitem li a:visited {
+    margin-right: 15px;
+    margin-left: 0;
+    transition: color 0.2s;
+  }
+}
