@@ -55,6 +55,7 @@
   <body>
     <header class="header">
       <div class="header__container">
+        <!-- <nav class="header__nav sticky"> -->
         <nav class="header__nav">
           <div class="header__logo">
             <img
@@ -62,13 +63,18 @@
               alt="Mokka's logo"
               class="header__img"
             />
+            <img
+              src="resources/img/logo.png"
+              alt="Mokka's logo"
+              class="header__img--black"
+            />
           </div>
           <div class="header__navlink">
             <ul class="header__navitem">
-              <li><a href="#">Our Coffee</a></li>
-              <li><a href="#">Coffee Shop</a></li>
-              <li><a href="#">Roastery</a></li>
-              <li><a href="#">Subscribe</a></li>
+              <li><a href="#products">Our Coffee</a></li>
+              <li><a href="#shop">Coffee Shop</a></li>
+              <li><a href="#roastery">Roastery</a></li>
+              <li><a href="#subscribe">Subscribe</a></li>
             </ul>
           </div>
         </nav>
@@ -82,7 +88,7 @@
       </div>
     </header>
 
-    <section class="center products">
+    <section id="products" class="center products js--products">
       <div class="title">
         <h2>Coffee that Roasted with Passion</h2>
         <p class="long-copy">
@@ -189,7 +195,7 @@
       </div>
     </section>
 
-    <section class="center shop">
+    <section id="shop" class="center shop">
       <div class="title">
         <h2>Try our coffee of passion</h2>
         <p class="long-copy">
@@ -226,7 +232,7 @@
       </div>
     </section>
 
-    <section class="roastery">
+    <section id="roastery" class="roastery">
       <div class="center title">
         <h2>See the roasting process</h2>
         <p class="long-copy">
@@ -263,7 +269,7 @@
       </div>
     </section>
 
-    <section class="center plans">
+    <section id="subscribe" class="center plans">
       <div class="title">
         <h2>Grab our fresh roasted coffee</h2>
         <p class="long-copy">
@@ -454,6 +460,12 @@
       </div>
     </footer>
 
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
