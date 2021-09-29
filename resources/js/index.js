@@ -1,11 +1,11 @@
 "use strict";
 
-$(document).ready(() => {
-  // change year on copyright
-  const year = new Date();
-  document.querySelector(".js--footer__copyright").innerHTML =
-    year.getFullYear();
+// change year on copyright
+const year = new Date();
+document.querySelector(".js--footer__copyright").innerHTML = year.getFullYear();
 
+// code with jQuery
+$(document).ready(() => {
   // show floating nav whenever leave header
   $(".js--products").waypoint(
     (direction) => {
@@ -32,11 +32,27 @@ $(document).ready(() => {
   animate(".js__wp--1", "fadeIn", "60");
 
   //animate shop picture
-  animate(".js__wp--2", "fadeInLeft", "50");
+  animate(".js__wp--2", "fadeInLeft", "60");
 
   // animate roastery picture
-  animate(".js__wp--3", "fadeInRight", "50");
+  animate(".js__wp--3", "fadeInRight", "60");
 
-  // animate first suvscribtion plan
+  // animate first subscription plan
   animate(".js__wp--4", "pulse", "25");
+
+  // toggle navlink in mobile nav
+  $(".js__mobile").click(() => {
+    const navItem = $(".header__navitem");
+    const mobileIcon = $(".mobile-nav-icon ion-icon");
+
+    navItem.slideToggle(200);
+
+    if (mobileIcon.attr("name") === "menu-outline") {
+      mobileIcon.attr("name", "");
+      mobileIcon.attr("name", "close-outline");
+    } else {
+      mobileIcon.attr("name", "");
+      mobileIcon.attr("name", "menu-outline");
+    }
+  });
 });

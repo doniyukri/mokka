@@ -152,6 +152,38 @@
     max-width: 95%;
   }
 
+  .header__nav {
+    display: flex;
+    align-items: start;
+    font-size: 105%;
+  }
+
+  .sticky.header__nav {
+    padding: 0 4%;
+  }
+
+  .header__logo,
+  .sticky .header__logo {
+    margin: 0 20px 0 0;
+    padding-top: 9px;
+  }
+
+  .header__navitem {
+    display: none;
+  }
+
+  .header__navitem li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .mobile-nav-icon {
+    color: #777;
+    font-size: 190%;
+    margin-left: auto;
+    padding-top: 6px;
+  }
+
   .header__hero {
     width: 95%;
   }
