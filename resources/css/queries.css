@@ -128,12 +128,13 @@
   }
 
   h1 {
-    font-size: 150%;
+    font-size: 190%;
     line-height: 100%;
   }
 
   h2 {
     font-size: 120%;
+    text-align: center;
   }
 
   h3 {
@@ -263,6 +264,10 @@
     font-size: 15px;
   }
 
+  h1 {
+    font-size: 150%;
+  }
+
   section {
     padding: 50px 0;
   }
@@ -277,6 +282,10 @@
 
   .header__logo {
     flex: 0 1 10%;
+  }
+
+  .header__hero {
+    top: 40%;
   }
 
   .talents_details {
