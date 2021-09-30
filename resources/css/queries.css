@@ -87,11 +87,18 @@
   }
 
   .plans__card:last-of-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .plans__card .plans__body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
   }
 
@@ -154,7 +161,11 @@
   }
 
   .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: start;
     font-size: 105%;
   }
@@ -191,11 +202,19 @@
   }
 
   .products__details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   cite {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
   }
 
@@ -205,10 +224,16 @@
 
   .shop__details {
     margin-top: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   .roastery__details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     margin-top: 15px;
   }
@@ -238,7 +263,12 @@
   }
 
   .plans__details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 25px;
   }
@@ -281,6 +311,8 @@
   }
 
   .header__logo {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 10%;
     flex: 0 1 10%;
   }
 
@@ -289,7 +321,12 @@
   }
 
   .talents_details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 50px;
   }
@@ -304,6 +341,8 @@
   }
 
   cite {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 10px;
   }
@@ -314,7 +353,12 @@
   }
 
   .footer__nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -326,6 +370,8 @@
   .footer__navitem li a:visited {
     margin-right: 15px;
     margin-left: 0;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
     transition: color 0.2s;
   }
 }
